@@ -31,6 +31,7 @@ This is a Python implementation of the Caesar Cipher, a simple encryption techni
    - Choose whether to **encrypt** or **decrypt** a message.
    - Enter the message to process.
    - Enter a shift value (integer).
+
 ### Example
 
 #### Encryption
@@ -43,7 +44,6 @@ This is a Python implementation of the Caesar Cipher, a simple encryption techni
 ```plaintext
 Encrypted message: Khoor, Zruog!
 
-
 #### Decryption
 **Input**:
 - Operation: `decrypt`
@@ -53,3 +53,4 @@ Encrypted message: Khoor, Zruog!
 **Output**:
 ```plaintext
 Decrypted message: Hello, World!
+
