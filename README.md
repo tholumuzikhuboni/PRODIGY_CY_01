@@ -21,11 +21,11 @@ This is a Python implementation of the Caesar Cipher, a simple encryption techni
 1. **Clone the repository (if applicable)**:
    ```bash
    git clone https://github.com/tholumuzikhuboni/PRODIGY_CY_01.git
-   cd caesar-cipher
+   cd PRODIGY_CV_01
 
 2. **Run the script**:
    ```bash
-   python caesar_cipher.py
+   python caesar-cipher.py
 
 3. **Follow the on-screen instructions**:
    - Choose whether to **encrypt** or **decrypt** a message.
