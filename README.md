@@ -52,22 +52,3 @@ Encrypted message: Khoor, Zruog!
 **Output**:
 ```plaintext
 Decrypted message: Hello, World!
-
-## How to Modify
-- You can change the shift value to any integer to create more variations of the cipher.
-- Adjust the script to read input from a file or save the output to a file for extended functionality.
-
-## Repository Structure
-- `caesar_cipher.py`: The Python script implementing the Caesar Cipher.
-- `README.md`: Documentation for the project.
-
-## Limitations
-- Only supports the English alphabet (A-Z, a-z).
-- Shift values outside of 26 are wrapped around (e.g., a shift of 27 is equivalent to a shift of 1).
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
----
-
-**Developed by Tholumuzi Khuboni**
