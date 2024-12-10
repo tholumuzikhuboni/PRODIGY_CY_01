@@ -42,7 +42,7 @@ This is a Python implementation of the Caesar Cipher, a simple encryption techni
 - Shift: `3`
 
 **Output**:
-```plaintext
+```bash
 Encrypted message: Khoor, Zruog!
 
 ## Decryption
