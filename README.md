@@ -33,19 +33,18 @@ This is a Python implementation of the Caesar Cipher, a simple encryption techni
    - Enter a shift value (integer).
 
 
-# Example
+### Example
 
-## Encryption
+#### Encryption
 **Input**:
 - Operation: `encrypt`
 - Message: `Hello, World!`
 - Shift: `3`
 
 **Output**:
-```bash
-Encrypted message: Khoor, Zruog!
+-Encrypted message: `Khoor, Zruog!`
 
-## Decryption
+#### Decryption
 **Input**:
 - Operation: `decrypt`
 - Message: `Khoor, Zruog!`
