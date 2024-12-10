@@ -43,7 +43,7 @@ This is a Python implementation of the Caesar Cipher, a simple encryption techni
 
 **Output**:
 ```plaintext
-Decrypted message: Hello, World!**Output**:
+Encrypted message: Khoor, Zruog!
 ```
 
 #### Decryption
@@ -54,6 +54,6 @@ Decrypted message: Hello, World!**Output**:
 
 **Output**:
 ```plaintext
-Decrypted message: Hello, World!**Output**:
+Decrypted message: Hello, World!
 ```
 
