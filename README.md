@@ -35,17 +35,18 @@ This is a Python implementation of the Caesar Cipher, a simple encryption techni
 
 ### Example
 
-1. #### Encryption
+#### Encryption
 **Input**:
 - Operation: `encrypt`
 - Message: `Hello, World!`
 - Shift: `3`
 
 **Output**:
-``plaintext
-- Encrypted message: `Khoor, Zruog!`
+```plaintext
+Decrypted message: Hello, World!**Output**:
+```
 
-2. #### Decryption
+#### Decryption
 **Input**:
 - Operation: `decrypt`
 - Message: `Khoor, Zruog!`
