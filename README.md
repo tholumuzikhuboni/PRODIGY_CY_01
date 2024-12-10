@@ -1,30 +1,73 @@
 # Caesar Cipher Encryption and Decryption
 
-This repository contains a Python implementation of the **Caesar Cipher** algorithm, which is used to encrypt and decrypt text by shifting letters in the alphabet by a certain value. This project was developed as part of my **Cybersecurity Internship** at **Prodigy Info Tech**, where I explored encryption methods as a fundamental aspect of securing data.
+This is a Python implementation of the Caesar Cipher, a simple encryption technique that shifts each letter in the plaintext by a specified number of places. The program supports both encryption and decryption of messages.
 
-## Overview
-
-The Caesar Cipher is one of the simplest encryption techniques, where each letter in the text is shifted by a fixed number (known as the shift value). The purpose of this project is to demonstrate the encryption and decryption process using this technique.
-
-### Features
-
-- **Encrypting Text**: Convert plaintext into ciphertext using a shift value.
-- **Decrypting Text**: Convert ciphertext back into plaintext using the same shift value.
-- **Interactive Command-Line Interface**: Users can interact with the program by providing the text and shift value for encryption or decryption.
+## Features
+- **Encryption**: Shifts each letter in the text by a specified shift value to create an encrypted message.
+- **Decryption**: Reverses the shift to retrieve the original message.
+- Handles both uppercase and lowercase letters.
+- Leaves non-alphabetic characters unchanged.
 
 ## How It Works
-
-- **Encryption**: Each letter in the input text is replaced by a letter that is a fixed number of positions down the alphabet.
-- **Decryption**: The encrypted text is converted back to its original form using the reverse process, by shifting the letters back by the same value.
+- The program uses the ASCII values of characters to calculate the shifted positions.
+- Uppercase and lowercase letters are handled separately to maintain case sensitivity.
+- Non-alphabetic characters (e.g., numbers, spaces, punctuation) remain unaltered.
 
 ## Prerequisites
+- Python 3.x installed on your system.
 
-- Python 3.x
+## Usage
 
-## Installation
+1. **Clone the repository (if applicable)**:
+   ```bash
+   git clone https://github.com/tholumuzikhuboni/PRODIGY_CY_01.git
+   cd caesar-cipher
 
-To use or modify the code, clone this repository to your local machine:
+2. **Run the script**:
+   ```bash
+   python caesar_cipher.py
 
-```bash
-git clone https://github.com/tholumuzikhuboni/PRODIGY_CY_01.git
-cd PRODIGY_CY_01
+3. **Follow the on-screen instructions**:
+   - Choose whether to **encrypt** or **decrypt** a message.
+   - Enter the message to process.
+   - Enter a shift value (integer).
+### Example
+
+#### Encryption
+**Input**:
+- Operation: `encrypt`
+- Message: `Hello, World!`
+- Shift: `3`
+
+**Output**:
+```plaintext
+Encrypted message: Khoor, Zruog!
+
+#### Decryption
+**Input**:
+- Operation: `decrypt`
+- Message: `Khoor, Zruog!`
+- Shift: `3`
+
+**Output**:
+```plaintext
+Decrypted message: Hello, World!
+
+## How to Modify
+- You can change the shift value to any integer to create more variations of the cipher.
+- Adjust the script to read input from a file or save the output to a file for extended functionality.
+
+## Repository Structure
+- `caesar_cipher.py`: The Python script implementing the Caesar Cipher.
+- `README.md`: Documentation for the project.
+
+## Limitations
+- Only supports the English alphabet (A-Z, a-z).
+- Shift values outside of 26 are wrapped around (e.g., a shift of 27 is equivalent to a shift of 1).
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+---
+
+**Developed by Tholumuzi Khuboni**
