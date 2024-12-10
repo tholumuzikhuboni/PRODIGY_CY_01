@@ -44,6 +44,8 @@ This is a Python implementation of the Caesar Cipher, a simple encryption techni
 ```plaintext
 Encrypted message: Khoor, Zruog!
 
+### Example 2
+
 #### Decryption
 **Input**:
 - Operation: `decrypt`
