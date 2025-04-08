@@ -1,4 +1,4 @@
-# Caesar Cipher Encryption and Decryption
+# Caesar Cipher
 
 This is a Python implementation of the Caesar Cipher, a simple encryption technique that shifts each letter in the plaintext by a specified number of places. The program supports both encryption and decryption of messages.
 
@@ -56,4 +56,3 @@ Encrypted message: Khoor, Zruog!
 ```plaintext
 Decrypted message: Hello, World!
 ```
-
